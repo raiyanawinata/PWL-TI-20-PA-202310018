@@ -5,7 +5,7 @@ export default function HeaderNav() {
     const menuList = [{ id: 1, name: "Home", path: "/home", icon:"bi-house-door" },
                       { id: 2, name: "Explore", path: "/explore", icon:"bi-compass" },
                       { id: 3, name: "Messages", path: "/messages", icon:"bi-send" },
-                      { id: 4, name: "Log Out", path: "/log-out", icon:"bi-box-arrow-left" }];
+                      { id: 4, name: "Login", path: "/login", icon:"bi-box-arrow-left" }];
     return (
         <header>
             <nav className="navbar navbar-expand-md fixed-top shadow bg-white">
